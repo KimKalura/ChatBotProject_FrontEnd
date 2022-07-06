@@ -1,0 +1,119 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+background-color: #a8a8a8;  
+}
+
+
+/* h1, p { */
+.text-style {
+  color: #6b86d6;
+  text-align: center;
+}
+
+p {
+  border: 2px solid #0964f6;
+  background-color: #ffffff;
+  padding: 20px 20px;
+  width: max-content;
+  margin: auto; 
+  margin-bottom:20px;
+  border-radius: 20px;
+  box-shadow: 5px 10px;
+}
+
+#messages{
+  background: #f2f2f2;
+  border-radius: 20px;
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+  overflow: scroll;
+}
+
+input {
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  float: right;
+}
+
+.chat{
+  display: inline-block;
+}
+
+#container {
+  margin: auto;
+  width: max-content;
+}
+
+.user-message {
+  width: max-content;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background:#234dcd;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+.bot-message {
+  width: max-content;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background:#614fe8; 
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+#hobby-list {
+  width: max-content;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ul li {
+  list-style-type: none;
+  padding: 10px;
+  background:  #1770a1;
+  color: white;
+  width: max-content;
+  border-radius:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+}
+
+ul{
+  border: solid 2px #1770a1;
+  border-radius: 20px;
+  padding:10px;
+}
+
+#hobbies-img {
+  margin:auto;
+  border-radius: 20px;
+  box-shadow:5px 10px;
+  margin-top: 20px;
+  display: block;
+}
+
+button{
+  
+  padding: 10px;
+  background:  white;
+  color: #1770a1;
+  font-size: 24px;
+  font-weight:600;
+  margin:auto;
+  display: block;
+  border:0;  
+   cursor:pointer;
+  border-radius: 14px;
+  box-shadow:5px 10px;
+}
